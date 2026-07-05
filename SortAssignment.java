@@ -129,9 +129,9 @@ public class SortAssignment {
      * 分解された配列を並べ替えながらマージするメソッド
      * 
      * @param arr 対象配列
-     * @param left 
-     * @param mid 
-     * @param right 
+     * @param left 走査開始位置のインデックス
+     * @param mid 走査中間位置のインデックス
+     * @param right 走査終了位置のインデックス
      */
     public static void merge(int[] arr, int left, int mid, int right) {
         
